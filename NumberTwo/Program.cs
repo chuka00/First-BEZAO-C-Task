@@ -2,7 +2,7 @@
 using System.Text.RegularExpressions;
 
 
-Console.WriteLine("Kindly write a word or a phrase");
+Console.WriteLine("Kindly write a word or a phrase with some it's characters in Upper case");
 string source = Console.ReadLine();
 string result = string.Concat(Regex
    .Matches(source, "[A-Z]")
